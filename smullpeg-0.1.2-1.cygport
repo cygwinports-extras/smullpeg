@@ -1,0 +1,4 @@
+ORIG_PN="smullpeg"
+inherit distutils
+
+DESCRIPTION="Nostalgic peg game"
