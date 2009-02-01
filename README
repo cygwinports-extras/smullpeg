@@ -21,15 +21,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack smullpeg-0.1.2-X-src.tar.bz2
+  unpack smullpeg-0.1.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./smullpeg-0.1.2-X.cygport all
+  cygport ./smullpeg-0.1.4-X.cygport all
 
 This will create:
-  /usr/src/smullpeg-0.1.2-X-src.tar.bz2
-  /usr/src/smullpeg-0.1.2-X.tar.bz2
+  /usr/src/smullpeg-0.1.4-X-src.tar.bz2
+  /usr/src/smullpeg-0.1.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,12 +53,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/pegs/sounds/finish.ogg
   /usr/lib/python2.5/site-packages/pegs/sounds/groan.ogg
   /usr/lib/python2.5/site-packages/pegs/sounds/mockery.ogg
-  /usr/lib/python2.5/site-packages/smullpeg-0.1.2-py2.5.egg-info
-  /usr/share/doc/smullpeg-0.1.2/README.txt
+  /usr/lib/python2.5/site-packages/smullpeg-0.1.4-py2.5.egg-info
+  /usr/share/doc/smullpeg-0.1.4/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 0.1.4-1 -----
+Version bump.
 
 ----- version 0.1.2-1 -----
 Initial release for Cygwin.
