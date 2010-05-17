@@ -5,12 +5,12 @@ would be wrong to explain here, as that would leave you with nothing
 to figure out by yourself.
 
 Runtime requirements:
-  python-2.5.4-1
-  python-pygame
+  python-2.6.5-1
+  python-pygame-1.9.1-2
 
 Build requirements:
-  cygport-0.4.3-1
-  python-2.5.4-1
+  cygport-0.9.84-1
+  python-2.6.5-1
 
 Canonical website:
   http://pypi.python.org/pypi/smullpeg/
@@ -21,44 +21,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack smullpeg-0.1.4-X-src.tar.bz2
+  unpack smullpeg-0.1.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./smullpeg-0.1.4-X.cygport all
+  cygport ./smullpeg-0.1.5-X.cygport all
 
 This will create:
-  /usr/src/smullpeg-0.1.4-X-src.tar.bz2
-  /usr/src/smullpeg-0.1.4-X.tar.bz2
+  /usr/src/smullpeg-0.1.5-X-src.tar.bz2
+  /usr/src/smullpeg-0.1.5-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/smullpeg
-  /usr/lib/python2.5/site-packages/pegs/__init__.py
-  /usr/lib/python2.5/site-packages/pegs/__init__.pyc
-  /usr/lib/python2.5/site-packages/pegs/__init__.pyo
-  /usr/lib/python2.5/site-packages/pegs/book.txt.gz
-  /usr/lib/python2.5/site-packages/pegs/engine.py
-  /usr/lib/python2.5/site-packages/pegs/engine.pyc
-  /usr/lib/python2.5/site-packages/pegs/engine.pyo
-  /usr/lib/python2.5/site-packages/pegs/game.py
-  /usr/lib/python2.5/site-packages/pegs/game.pyc
-  /usr/lib/python2.5/site-packages/pegs/game.pyo
-  /usr/lib/python2.5/site-packages/pegs/sounds/applause.ogg
-  /usr/lib/python2.5/site-packages/pegs/sounds/applause2.ogg
-  /usr/lib/python2.5/site-packages/pegs/sounds/beep.ogg
-  /usr/lib/python2.5/site-packages/pegs/sounds/click.ogg
-  /usr/lib/python2.5/site-packages/pegs/sounds/finish.ogg
-  /usr/lib/python2.5/site-packages/pegs/sounds/groan.ogg
-  /usr/lib/python2.5/site-packages/pegs/sounds/mockery.ogg
-  /usr/lib/python2.5/site-packages/smullpeg-0.1.4-py2.5.egg-info
-  /usr/share/doc/smullpeg-0.1.4/README.txt
-
-------------------
-
 Port Notes:
+
+----- version 0.1.5-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.1.4-1 -----
 Version bump.
