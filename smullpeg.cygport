@@ -1,0 +1,10 @@
+inherit distutils
+
+NAME="smullpeg"
+VERSION=0.1.5
+RELEASE=2
+CATEGORY="Games"
+SUMMARY="Nostalgic peg game"
+DESCRIPTION="This little game is a computer version of a familiar peg game that
+would be wrong to explain here, as that would leave you with nothing to figure
+out by yourself."

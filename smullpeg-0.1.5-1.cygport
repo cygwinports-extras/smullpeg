@@ -1,3 +1,0 @@
-inherit distutils
-
-DESCRIPTION="Nostalgic peg game"

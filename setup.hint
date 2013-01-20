@@ -1,6 +1,0 @@
-category: Games
-requires: python python-pygame
-sdesc: "Nostalgic peg game"
-ldesc: "This little game is a computer version of a familiar peg game 
-that would be wrong to explain here, as that would leave you with 
-nothing to figure out by yourself."
