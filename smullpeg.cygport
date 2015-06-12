@@ -1,10 +1,21 @@
-inherit distutils
+inherit python-distutils
 
 NAME="smullpeg"
 VERSION=0.1.5
-RELEASE=2
+RELEASE=3
 CATEGORY="Games"
 SUMMARY="Nostalgic peg game"
 DESCRIPTION="This little game is a computer version of a familiar peg game that
 would be wrong to explain here, as that would leave you with nothing to figure
 out by yourself."
+
+SRC_URI+=" icon.png"
+
+ARCH=noarch
+
+src_install() {
+	cd ${B}
+	python_distutils_install
+	newicon ${S}/icon.png smullpeg.png
+	make_desktop_entry smullpeg "Smull-Peg" smullpeg "Game;BoardGame"
+}
